@@ -1,0 +1,32 @@
+[
+  {
+    "name": "DBMS",
+    "repo": "sanket-sonwane/dbms-lab",
+    "description": "Database Management Systems practicals with SQL queries, ER diagrams, and normalization examples."
+  },
+  {
+    "name": "CN",
+    "repo": "sanket-sonwane/cn-lab",
+    "description": "Computer Networks lab experiments covering TCP/IP, socket programming, and routing protocols."
+  },
+  {
+    "name": "OS",
+    "repo": "sanket-sonwane/os-lab",
+    "description": "Operating Systems practicals including process scheduling, memory management, and file systems."
+  },
+  {
+    "name": "DSA",
+    "repo": "sanket-sonwane/dsa-lab",
+    "description": "Data Structures and Algorithms with implementations of sorting, searching, trees, and graphs."
+  },
+  {
+    "name": "SE",
+    "repo": "sanket-sonwane/se-lab",
+    "description": "Software Engineering practicals covering UML diagrams, SDLC models, and project management."
+  },
+  {
+    "name": "CG",
+    "repo": "sanket-sonwane/cg-lab",
+    "description": "Computer Graphics experiments with OpenGL, transformations, clipping, and rendering techniques."
+  }
+]
