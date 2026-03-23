@@ -93,7 +93,9 @@ export default function SubjectCard({ subject, isBookmarked, onToggleBookmark })
           </div>
           <div className="prose prose-sm prose-invert max-h-40 overflow-y-auto text-gray-300 text-xs">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
-              {preview?.slice(0, 800) + (preview?.length > 800 ? '\n\n_...preview truncated_' : '')}
+              {preview
+                ? preview.slice(0, 800) + (preview.length > 800 ? '\n\n_...preview truncated_' : '')
+                : ''}
             </ReactMarkdown>
           </div>
         </div>
